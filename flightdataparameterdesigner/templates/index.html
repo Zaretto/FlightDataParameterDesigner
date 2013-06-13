@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}Flight Data Parameter Designer{% endblock %}
+
+{% block content %}
+<section>
+<h1>Flight Data Parameter Designer</h1>
+<p><strong>Tip:</strong> Use the <em>Flight Data Converter</em> to generate your HDF from your <em>Raw Data</em> and <em>LFL document</em>.</p>
+{% if error %}<p class="error"><strong>Error:</strong> {{ error }}</p>{% endif %}
+<form action="/design" enctype="multipart/form-data" method="POST">
+<p>
+<label for="hdf-file">HDF File:</label>
+<input type="file" id=hdf-file" name="hdf_file" size="40">
+</p>
+<p class="buttons">
+<input type="submit">
+</p>
+</form>
+</section>
+{% endblock %}

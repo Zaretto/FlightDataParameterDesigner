@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block title %}Flight Data Parameter Designer{% endblock %}
+
+{% block head %}
+<script src="/_assets/lib/js/jquery/1.8.0/jquery.min.js"></script>
+<script src="/_assets/lib/js/jquery-ui/1.8.23/jquery-ui.min.js"></script>
+<script src="/_assets/lib/js/flot/0.7/jquery.flot.js"></script>
+<script src="/_assets/lib/js/flot/0.7/jquery.flot.selection.js"></script>
+<script src="/_assets/lib/js/flot/0.7/jquery.flot.resize.js"></script>
+<script src="/_assets/fds/js/script.js"></script>
+{% endblock %}
+
+{% block content %}
+<section>
+<h1>Flight Data Parameter Designer</h1>
+<p><strong>Tip:</strong> Use the <em>Flight Data Converter</em> to generate your HDF from your <em>Raw Data</em> and <em>LFL document</em>.</p>
+{% if error %}<p class="error"><strong>Error:</strong> {{ error }}</p>{% endif %}
+<p>Select a parameter and variable name:</p>
+
+<p>
+<select id="parameter_select_1" data-file-path="{{ file_path }}">
+  <option value="" selected="selected"></option>
+{% for parameter_name in parameter_names %}
+  <option value="{{ parameter_name }}">{{ parameter_name }}</option>
+{% endfor %}
+</select>
+<input id="parameter_name_1" type="textbox"></input>
+</p>
+<p>
+<select id="parameter_select_2" data-file-path="{{ file_path }}">
+  <option value="" selected="selected"></option>
+{% for parameter_name in parameter_names %}
+  <option value="{{ parameter_name }}">{{ parameter_name }}</option>
+{% endfor %}
+</select>
+<input id="parameter_name_2" type="textbox"></input>
+</p>
+<p>
+<select id="parameter_select_3" data-file-path="{{ file_path }}">
+  <option value="" selected="selected"></option>
+{% for parameter_name in parameter_names %}
+  <option value="{{ parameter_name }}">{{ parameter_name }}</option>
+{% endfor %}
+</select>
+<input id="parameter_name_3" type="textbox"></input>
+</p>
+
+<ul>
+<li>Python code entered into the text area below will be executed when the <i>Run</i> button is clicked.</li>
+<li>A numpy array must be assigned to a variable named <i>result</i> which will be plotted below.</li>
+<li>Parameters selected above may be referenced by their chosen variable names.</li>
+</ul>
+<p><strong>Example (Altitude STD selected as alt_std):</strong>
+<p id="code_example">
+from analysis_engine.library import repair_mask<br>result = repair_mask(alt_std.array)
+</p>
+</p>
+
+{#<input id="parameter_select_submit" type="submit"></input>#}
+<span id="error_box" style="display: none; margin-bottom: 5px; border: 1px solid; color: DarkRed; text-align: center; padding: 2px; background-color: LightPink" {#class="ui-state-error ui-corner-all"#}><p><strong>Error:</strong> <span id="error"></span></p></span>
+
+<p>
+<textarea id="code"></textarea>
+<input id="code_run" type="submit" value="Run">
+</p>
+
+<div id="placeholder1" style="width:900px;height:480px"></div>
+<div id="placeholder2" style="width:900px;height:480px"></div>
+<div id="placeholder3" style="width:900px;height:480px"></div>
+<div id="placeholder4" style="width:900px;height:480px"></div>
+
+</section>
+{% endblock %}

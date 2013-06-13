@@ -1,0 +1,10 @@
+To Do
+=====
+
+* Use BlockUI jQuery plugin or similar to prevent the user from creating multiple requests to run code in parallel.
+* Allow the user to choose any number of parameters.
+* Provide more intuitive error messages.
+* Support Key Time Instance and Key Point Value development by displaying markers on graphs.
+* Display results in a table instead of only as a graph.
+* Provide more integrated development environment features such as syntax highlighting and auto-completion.
+* Host the application on a server.

@@ -1,0 +1,2328 @@
+[
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Pitch Rate",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "20: Pitch Rate 35 To 1000 Ft Max"
+        },
+        "name": "20: Pitch Rate 35 To 1000 Ft Max",
+        "id": "Pitch Rate 35 To 1000 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Go Around And Climbout",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "24: Pitch During Go Around Max"
+        },
+        "name": "24: Pitch During Go Around Max",
+        "id": "Pitch During Go Around Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Vertical Speed For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airborne",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#d93737",
+            "label": "32: Climbing"
+        },
+        "name": "32: Climbing",
+        "id": "Climbing"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Go Around",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#d93737",
+            "label": "23: Go Around And Climbout"
+        },
+        "name": "23: Go Around And Climbout",
+        "id": "Go Around And Climbout"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Go Around And Climbout",
+                "data": {}
+            },
+            {
+                "nodeTo": "Vertical Speed",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "27: Rate Of Climb During Go Around Max"
+        },
+        "name": "27: Rate Of Climb During Go Around Max",
+        "id": "Rate Of Climb During Go Around Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Airborne",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Fast",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#d93737",
+            "label": "89: Bounced Landing"
+        },
+        "name": "89: Bounced Landing",
+        "id": "Bounced Landing"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "34: Airspeed 1000 To 500 Ft Max"
+        },
+        "name": "34: Airspeed 1000 To 500 Ft Max",
+        "id": "Airspeed 1000 To 500 Ft Max"
+    },
+    {
+        "adjacencies": [],
+        "data": {
+            "label": "0: Frame"
+        },
+        "name": "0: Frame",
+        "id": "Frame"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude STD Smoothed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "35: Airspeed 10000 To 8000 Ft Max"
+        },
+        "name": "35: Airspeed 10000 To 8000 Ft Max",
+        "id": "Airspeed 10000 To 8000 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Vertical Speed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "36: Rate Of Descent 1000 To 500 Ft Max"
+        },
+        "name": "36: Rate Of Descent 1000 To 500 Ft Max",
+        "id": "Rate Of Descent 1000 To 500 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Roll",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "37: Roll 300 To 20 Ft Max"
+        },
+        "name": "37: Roll 300 To 20 Ft Max",
+        "id": "Roll 300 To 20 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Descend For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "39: Height Loss 1000 To 2000 Ft"
+        },
+        "name": "39: Height Loss 1000 To 2000 Ft",
+        "id": "Height Loss 1000 To 2000 Ft"
+    },
+    {
+        "adjacencies": [],
+        "data": {
+            "label": "30: Precise Positioning"
+        },
+        "name": "30: Precise Positioning",
+        "id": "Precise Positioning"
+    },
+    {
+        "adjacencies": [],
+        "data": {
+            "color": "#72f4eb",
+            "label": "3: Airspeed"
+        },
+        "name": "3: Airspeed",
+        "id": "Airspeed"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "42: Pitch 500 To 50 Ft Max"
+        },
+        "name": "42: Pitch 500 To 50 Ft Max",
+        "id": "Pitch 500 To 50 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Vertical Speed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "44: Rate Of Descent 500 To 50 Ft Max"
+        },
+        "name": "44: Rate Of Descent 500 To 50 Ft Max",
+        "id": "Rate Of Descent 500 To 50 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Liftoff",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "65: Airspeed At Liftoff"
+        },
+        "name": "65: Airspeed At Liftoff",
+        "id": "Airspeed At Liftoff"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airborne",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "45: Airspeed Max"
+        },
+        "name": "45: Airspeed Max",
+        "id": "Airspeed Max"
+    },
+    {
+        "adjacencies": [],
+        "data": {
+            "label": "10: Family"
+        },
+        "name": "10: Family",
+        "id": "Family"
+    },
+    {
+        "adjacencies": [],
+        "data": {
+            "color": "#72f4eb",
+            "label": "1: Altitude STD"
+        },
+        "name": "1: Altitude STD",
+        "id": "Altitude STD"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Start Datetime",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#b88a00",
+            "label": "46: FDR Version"
+        },
+        "name": "46: FDR Version",
+        "id": "FDR Version"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Pitch Rate 35 To 1000 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch During Go Around Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Rate Of Climb During Go Around Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed 1000 To 500 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed 10000 To 8000 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Roll 300 To 20 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Height Loss 1000 To 2000 Ft",
+                "data": {}
+            },
+            {
+                "nodeTo": "Rate Of Descent 500 To 50 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "FDR Version",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude Overshoot At Suspected Level Bust",
+                "data": {}
+            },
+            {
+                "nodeTo": "Roll Liftoff To 20 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude When Climbing",
+                "data": {}
+            },
+            {
+                "nodeTo": "Roll 400 To 1000 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed 35 To 1000 Ft Min",
+                "data": {}
+            },
+            {
+                "nodeTo": "Roll 1000 To 300 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Rate Of Descent Below 10000 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Rate Of Descent 2000 To 1000 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch 1000 To 500 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch 500 To 50 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed 8000 To 10000 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Roll Cycles During Final Approach",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch At 35 Ft During Climb",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed 3000 To 1000 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch At Liftoff",
+                "data": {}
+            },
+            {
+                "nodeTo": "Acceleration Normal At Liftoff",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch 500 To 20 Ft Min",
+                "data": {}
+            },
+            {
+                "nodeTo": "Rate Of Descent 1000 To 500 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Rate Of Descent 10000 To 5000 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed 35 To 1000 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Rate Of Descent 5000 To 3000 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed At Liftoff",
+                "data": {}
+            },
+            {
+                "nodeTo": "Rate Of Climb 35 To 1000 Ft Min",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed During Level Flight Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch 1000 To 500 Ft Min",
+                "data": {}
+            },
+            {
+                "nodeTo": "Acceleration Normal 20 Ft To Flare Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude During Go Around Min",
+                "data": {}
+            },
+            {
+                "nodeTo": "Height Loss 35 To 1000 Ft",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch 400 To 1000 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch Cycles During Final Approach",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed 500 To 20 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Height Of Bounced Landing",
+                "data": {}
+            },
+            {
+                "nodeTo": "Rate Of Climb Below 10000 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch 400 To 1000 Ft Min",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude When Descending",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed During Cruise Min",
+                "data": {}
+            },
+            {
+                "nodeTo": "Rate Of Descent Top Of Descent To 10000 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed 8000 To 5000 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude At Liftoff",
+                "data": {}
+            },
+            {
+                "nodeTo": "Rate Of Climb Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Climb For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch 35 To 400 Ft Min",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch Liftoff To 35 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Takeoff Rotation",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed 1000 To 500 Ft Min",
+                "data": {}
+            },
+            {
+                "nodeTo": "Roll Above 1000 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed 1000 To 8000 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Rate Of Descent Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "FDR Analysis Datetime",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude At Mach Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Liftoff To Climb Pitch Duration",
+                "data": {}
+            },
+            {
+                "nodeTo": "Roll 20 To 400 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed 5000 To 3000 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Rate Of Descent During Go Around Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Rate Of Descent 3000 To 2000 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed During Cruise Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Roll Rate",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch 35 To 400 Ft Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed 500 To 20 Ft Min",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#ffffff",
+            "label": "122: root"
+        },
+        "name": "122: root",
+        "id": "root"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Vertical Speed For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airborne",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#d93737",
+            "label": "81: Level Flight"
+        },
+        "name": "81: Level Flight",
+        "id": "Level Flight"
+    },
+    {
+        "adjacencies": [],
+        "data": {
+            "color": "#72f4eb",
+            "label": "13: Acceleration Normal"
+        },
+        "name": "13: Acceleration Normal",
+        "id": "Acceleration Normal"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL",
+                "data": {}
+            },
+            {
+                "nodeTo": "Go Around",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#fdbb30",
+            "label": "117: Touch And Go"
+        },
+        "name": "117: Touch And Go",
+        "id": "Touch And Go"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude STD Smoothed",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "51: Altitude Overshoot At Suspected Level Bust"
+        },
+        "name": "51: Altitude Overshoot At Suspected Level Bust",
+        "id": "Altitude Overshoot At Suspected Level Bust"
+    },
+    {
+        "adjacencies": [],
+        "data": {
+            "color": "#72f4eb",
+            "label": "15: Acceleration Longitudinal"
+        },
+        "name": "15: Acceleration Longitudinal",
+        "id": "Acceleration Longitudinal"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Frame",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude STD",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#72cdf4",
+            "label": "2: Altitude STD Smoothed"
+        },
+        "name": "2: Altitude STD Smoothed",
+        "id": "Altitude STD Smoothed"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude STD Smoothed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Fast",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#72cdf4",
+            "label": "38: Descend For Flight Phases"
+        },
+        "name": "38: Descend For Flight Phases",
+        "id": "Descend For Flight Phases"
+    },
+    {
+        "adjacencies": [],
+        "data": {
+            "label": "41: Start Datetime"
+        },
+        "name": "41: Start Datetime",
+        "id": "Start Datetime"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude STD Smoothed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "97: Airspeed 8000 To 5000 Ft Max"
+        },
+        "name": "97: Airspeed 8000 To 5000 Ft Max",
+        "id": "Airspeed 8000 To 5000 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude STD Smoothed",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#72cdf4",
+            "label": "31: Vertical Speed For Flight Phases"
+        },
+        "name": "31: Vertical Speed For Flight Phases",
+        "id": "Vertical Speed For Flight Phases"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL",
+                "data": {}
+            },
+            {
+                "nodeTo": "Climbing",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#fdbb30",
+            "label": "53: Altitude When Climbing"
+        },
+        "name": "53: Altitude When Climbing",
+        "id": "Altitude When Climbing"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#72cdf4",
+            "label": "7: Altitude AAL For Flight Phases"
+        },
+        "name": "7: Altitude AAL For Flight Phases",
+        "id": "Altitude AAL For Flight Phases"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Roll",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "54: Roll 400 To 1000 Ft Max"
+        },
+        "name": "54: Roll 400 To 1000 Ft Max",
+        "id": "Roll 400 To 1000 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "55: Airspeed 35 To 1000 Ft Min"
+        },
+        "name": "55: Airspeed 35 To 1000 Ft Min",
+        "id": "Airspeed 35 To 1000 Ft Min"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Acceleration Normal",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#72cdf4",
+            "label": "14: Acceleration Normal Offset Removed"
+        },
+        "name": "14: Acceleration Normal Offset Removed",
+        "id": "Acceleration Normal Offset Removed"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Roll",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "56: Roll 1000 To 300 Ft Max"
+        },
+        "name": "56: Roll 1000 To 300 Ft Max",
+        "id": "Roll 1000 To 300 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Pitch",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#72cdf4",
+            "label": "19: Pitch Rate"
+        },
+        "name": "19: Pitch Rate",
+        "id": "Pitch Rate"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Vertical Speed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "59: Rate Of Descent Below 10000 Ft Max"
+        },
+        "name": "59: Rate Of Descent Below 10000 Ft Max",
+        "id": "Rate Of Descent Below 10000 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "61: Pitch 1000 To 500 Ft Max"
+        },
+        "name": "61: Pitch 1000 To 500 Ft Max",
+        "id": "Pitch 1000 To 500 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Top Of Climb",
+                "data": {}
+            },
+            {
+                "nodeTo": "Climb Start",
+                "data": {}
+            },
+            {
+                "nodeTo": "Bottom Of Descent",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#d93737",
+            "label": "74: Climb"
+        },
+        "name": "74: Climb",
+        "id": "Climb"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Descent",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#d93737",
+            "label": "78: Descent To Flare"
+        },
+        "name": "78: Descent To Flare",
+        "id": "Descent To Flare"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude STD Smoothed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "62: Airspeed 8000 To 10000 Ft Max"
+        },
+        "name": "62: Airspeed 8000 To 10000 Ft Max",
+        "id": "Airspeed 8000 To 10000 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude STD Smoothed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Climb Cruise Descent",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#fdbb30",
+            "label": "73: Top Of Climb"
+        },
+        "name": "73: Top Of Climb",
+        "id": "Top Of Climb"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "64: Pitch At 35 Ft During Climb"
+        },
+        "name": "64: Pitch At 35 Ft During Climb",
+        "id": "Pitch At 35 Ft During Climb"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "66: Airspeed 3000 To 1000 Ft Max"
+        },
+        "name": "66: Airspeed 3000 To 1000 Ft Max",
+        "id": "Airspeed 3000 To 1000 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#72cdf4",
+            "label": "4: Airspeed For Flight Phases"
+        },
+        "name": "4: Airspeed For Flight Phases",
+        "id": "Airspeed For Flight Phases"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Airspeed For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#d93737",
+            "label": "5: Fast"
+        },
+        "name": "5: Fast",
+        "id": "Fast"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Liftoff",
+                "data": {}
+            },
+            {
+                "nodeTo": "Start Datetime",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#b88a00",
+            "label": "109: FDR Takeoff Datetime"
+        },
+        "name": "109: FDR Takeoff Datetime",
+        "id": "FDR Takeoff Datetime"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Acceleration Normal Offset Removed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Acceleration Longitudinal",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#72cdf4",
+            "label": "28: Acceleration Forwards"
+        },
+        "name": "28: Acceleration Forwards",
+        "id": "Acceleration Forwards"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude STD Smoothed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Fast",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#72cdf4",
+            "label": "6: Altitude AAL"
+        },
+        "name": "6: Altitude AAL",
+        "id": "Altitude AAL"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Final Approach",
+                "data": {}
+            },
+            {
+                "nodeTo": "Roll",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "63: Roll Cycles During Final Approach"
+        },
+        "name": "63: Roll Cycles During Final Approach",
+        "id": "Roll Cycles During Final Approach"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Liftoff",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "69: Pitch At Liftoff"
+        },
+        "name": "69: Pitch At Liftoff",
+        "id": "Pitch At Liftoff"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#fdbb30",
+            "label": "57: Altitude Peak"
+        },
+        "name": "57: Altitude Peak",
+        "id": "Altitude Peak"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Liftoff",
+                "data": {}
+            },
+            {
+                "nodeTo": "Acceleration Normal Offset Removed",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "70: Acceleration Normal At Liftoff"
+        },
+        "name": "70: Acceleration Normal At Liftoff",
+        "id": "Acceleration Normal At Liftoff"
+    },
+    {
+        "adjacencies": [],
+        "data": {
+            "label": "9: Series"
+        },
+        "name": "9: Series",
+        "id": "Series"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "71: Pitch 500 To 20 Ft Min"
+        },
+        "name": "71: Pitch 500 To 20 Ft Min",
+        "id": "Pitch 500 To 20 Ft Min"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airborne",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#d93737",
+            "label": "47: Climb Cruise Descent"
+        },
+        "name": "47: Climb Cruise Descent",
+        "id": "Climb Cruise Descent"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude STD Smoothed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Vertical Speed",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "67: Rate Of Descent 10000 To 5000 Ft Max"
+        },
+        "name": "67: Rate Of Descent 10000 To 5000 Ft Max",
+        "id": "Rate Of Descent 10000 To 5000 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#d93737",
+            "label": "18: Final Approach"
+        },
+        "name": "18: Final Approach",
+        "id": "Final Approach"
+    },
+    {
+        "adjacencies": [],
+        "data": {
+            "color": "#72f4eb",
+            "label": "11: Roll"
+        },
+        "name": "11: Roll",
+        "id": "Roll"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "75: Airspeed 35 To 1000 Ft Max"
+        },
+        "name": "75: Airspeed 35 To 1000 Ft Max",
+        "id": "Airspeed 35 To 1000 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Liftoff",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "112: Liftoff To Climb Pitch Duration"
+        },
+        "name": "112: Liftoff To Climb Pitch Duration",
+        "id": "Liftoff To Climb Pitch Duration"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "83: Pitch 1000 To 500 Ft Min"
+        },
+        "name": "83: Pitch 1000 To 500 Ft Min",
+        "id": "Pitch 1000 To 500 Ft Min"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Vertical Speed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "79: Rate Of Descent 5000 To 3000 Ft Max"
+        },
+        "name": "79: Rate Of Descent 5000 To 3000 Ft Max",
+        "id": "Rate Of Descent 5000 To 3000 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Vertical Speed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "80: Rate Of Climb 35 To 1000 Ft Min"
+        },
+        "name": "80: Rate Of Climb 35 To 1000 Ft Min",
+        "id": "Rate Of Climb 35 To 1000 Ft Min"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Level Flight",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "82: Airspeed During Level Flight Max"
+        },
+        "name": "82: Airspeed During Level Flight Max",
+        "id": "Airspeed During Level Flight Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL",
+                "data": {}
+            },
+            {
+                "nodeTo": "Climbing",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#fdbb30",
+            "label": "72: Climb Start"
+        },
+        "name": "72: Climb Start",
+        "id": "Climb Start"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Descent Low Climb",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airborne",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#fdbb30",
+            "label": "49: Bottom Of Descent"
+        },
+        "name": "49: Bottom Of Descent",
+        "id": "Bottom Of Descent"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Top Of Descent",
+                "data": {}
+            },
+            {
+                "nodeTo": "Climb Cruise Descent",
+                "data": {}
+            },
+            {
+                "nodeTo": "Top Of Climb",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#d93737",
+            "label": "77: Cruise"
+        },
+        "name": "77: Cruise",
+        "id": "Cruise"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Acceleration Normal Offset Removed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "84: Acceleration Normal 20 Ft To Flare Max"
+        },
+        "name": "84: Acceleration Normal 20 Ft To Flare Max",
+        "id": "Acceleration Normal 20 Ft To Flare Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL",
+                "data": {}
+            },
+            {
+                "nodeTo": "Go Around",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "85: Altitude During Go Around Min"
+        },
+        "name": "85: Altitude During Go Around Min",
+        "id": "Altitude During Go Around Min"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Descend For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "86: Height Loss 35 To 1000 Ft"
+        },
+        "name": "86: Height Loss 35 To 1000 Ft",
+        "id": "Height Loss 35 To 1000 Ft"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "68: Pitch 400 To 1000 Ft Max"
+        },
+        "name": "68: Pitch 400 To 1000 Ft Max",
+        "id": "Pitch 400 To 1000 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Final Approach",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "87: Pitch Cycles During Final Approach"
+        },
+        "name": "87: Pitch Cycles During Final Approach",
+        "id": "Pitch Cycles During Final Approach"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "88: Airspeed 500 To 20 Ft Max"
+        },
+        "name": "88: Airspeed 500 To 20 Ft Max",
+        "id": "Airspeed 500 To 20 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude Peak",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#72cdf4",
+            "label": "58: Altitude QNH"
+        },
+        "name": "58: Altitude QNH",
+        "id": "Altitude QNH"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Acceleration Forwards",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude STD",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#72cdf4",
+            "label": "29: Airspeed True"
+        },
+        "name": "29: Airspeed True",
+        "id": "Airspeed True"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL",
+                "data": {}
+            },
+            {
+                "nodeTo": "Bounced Landing",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "90: Height Of Bounced Landing"
+        },
+        "name": "90: Height Of Bounced Landing",
+        "id": "Height Of Bounced Landing"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Go Around And Climbout",
+                "data": {}
+            },
+            {
+                "nodeTo": "Vertical Speed",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "115: Rate Of Descent During Go Around Max"
+        },
+        "name": "115: Rate Of Descent During Go Around Max",
+        "id": "Rate Of Descent During Go Around Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Vertical Speed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "91: Rate Of Climb Below 10000 Ft Max"
+        },
+        "name": "91: Rate Of Climb Below 10000 Ft Max",
+        "id": "Rate Of Climb Below 10000 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Airspeed For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airborne",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#d93737",
+            "label": "12: Grounded"
+        },
+        "name": "12: Grounded",
+        "id": "Grounded"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude STD Smoothed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airborne",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "93: Altitude Max"
+        },
+        "name": "93: Altitude Max",
+        "id": "Altitude Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Go Around And Climbout",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#d93737",
+            "label": "43: Go Around 5 Min Rating"
+        },
+        "name": "43: Go Around 5 Min Rating",
+        "id": "Go Around 5 Min Rating"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL",
+                "data": {}
+            },
+            {
+                "nodeTo": "Descending",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#fdbb30",
+            "label": "94: Altitude When Descending"
+        },
+        "name": "94: Altitude When Descending",
+        "id": "Altitude When Descending"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Vertical Speed For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Airborne",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#d93737",
+            "label": "33: Descending"
+        },
+        "name": "33: Descending",
+        "id": "Descending"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Cruise",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "95: Airspeed During Cruise Min"
+        },
+        "name": "95: Airspeed During Cruise Min",
+        "id": "Airspeed During Cruise Min"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude STD Smoothed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Vertical Speed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Descent",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "96: Rate Of Descent Top Of Descent To 10000 Ft Max"
+        },
+        "name": "96: Rate Of Descent Top Of Descent To 10000 Ft Max",
+        "id": "Rate Of Descent Top Of Descent To 10000 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Airborne",
+                "data": {}
+            },
+            {
+                "nodeTo": "Mach",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "110: Mach Max"
+        },
+        "name": "110: Mach Max",
+        "id": "Mach Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Liftoff",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude STD Smoothed",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "98: Altitude At Liftoff"
+        },
+        "name": "98: Altitude At Liftoff",
+        "id": "Altitude At Liftoff"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Climbing",
+                "data": {}
+            },
+            {
+                "nodeTo": "Vertical Speed",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "99: Rate Of Climb Max"
+        },
+        "name": "99: Rate Of Climb Max",
+        "id": "Rate Of Climb Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude STD Smoothed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Fast",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#72cdf4",
+            "label": "100: Climb For Flight Phases"
+        },
+        "name": "100: Climb For Flight Phases",
+        "id": "Climb For Flight Phases"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "101: Pitch 35 To 400 Ft Min"
+        },
+        "name": "101: Pitch 35 To 400 Ft Min",
+        "id": "Pitch 35 To 400 Ft Min"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Frame",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude STD Smoothed",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#72cdf4",
+            "label": "26: Vertical Speed"
+        },
+        "name": "26: Vertical Speed",
+        "id": "Vertical Speed"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#d93737",
+            "label": "21: Descent Low Climb"
+        },
+        "name": "21: Descent Low Climb",
+        "id": "Descent Low Climb"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Airborne",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#fdbb30",
+            "label": "17: Liftoff"
+        },
+        "name": "17: Liftoff",
+        "id": "Liftoff"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "102: Pitch Liftoff To 35 Ft Max"
+        },
+        "name": "102: Pitch Liftoff To 35 Ft Max",
+        "id": "Pitch Liftoff To 35 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Descent Low Climb",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#fdbb30",
+            "label": "22: Go Around"
+        },
+        "name": "22: Go Around",
+        "id": "Go Around"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Liftoff",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#d93737",
+            "label": "103: Takeoff Rotation"
+        },
+        "name": "103: Takeoff Rotation",
+        "id": "Takeoff Rotation"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "104: Airspeed 1000 To 500 Ft Min"
+        },
+        "name": "104: Airspeed 1000 To 500 Ft Min",
+        "id": "Airspeed 1000 To 500 Ft Min"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Roll",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "105: Roll Above 1000 Ft Max"
+        },
+        "name": "105: Roll Above 1000 Ft Max",
+        "id": "Roll Above 1000 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "106: Airspeed 1000 To 8000 Ft Max"
+        },
+        "name": "106: Airspeed 1000 To 8000 Ft Max",
+        "id": "Airspeed 1000 To 8000 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Descending",
+                "data": {}
+            },
+            {
+                "nodeTo": "Vertical Speed",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "107: Rate Of Descent Max"
+        },
+        "name": "107: Rate Of Descent Max",
+        "id": "Rate Of Descent Max"
+    },
+    {
+        "adjacencies": [],
+        "data": {
+            "label": "25: Manufacturer"
+        },
+        "name": "25: Manufacturer",
+        "id": "Manufacturer"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Start Datetime",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#b88a00",
+            "label": "108: FDR Analysis Datetime"
+        },
+        "name": "108: FDR Analysis Datetime",
+        "id": "FDR Analysis Datetime"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Roll",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "52: Roll Liftoff To 20 Ft Max"
+        },
+        "name": "52: Roll Liftoff To 20 Ft Max",
+        "id": "Roll Liftoff To 20 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "92: Pitch 400 To 1000 Ft Min"
+        },
+        "name": "92: Pitch 400 To 1000 Ft Min",
+        "id": "Pitch 400 To 1000 Ft Min"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Mach Max",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude STD Smoothed",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "111: Altitude At Mach Max"
+        },
+        "name": "111: Altitude At Mach Max",
+        "id": "Altitude At Mach Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude STD Smoothed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Climb Cruise Descent",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#fdbb30",
+            "label": "48: Top Of Descent"
+        },
+        "name": "48: Top Of Descent",
+        "id": "Top Of Descent"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Vertical Speed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "60: Rate Of Descent 2000 To 1000 Ft Max"
+        },
+        "name": "60: Rate Of Descent 2000 To 1000 Ft Max",
+        "id": "Rate Of Descent 2000 To 1000 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude STD",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#72cdf4",
+            "label": "76: Mach"
+        },
+        "name": "76: Mach",
+        "id": "Mach"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Roll",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "113: Roll 20 To 400 Ft Max"
+        },
+        "name": "113: Roll 20 To 400 Ft Max",
+        "id": "Roll 20 To 400 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Top Of Descent",
+                "data": {}
+            },
+            {
+                "nodeTo": "Bottom Of Descent",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#d93737",
+            "label": "50: Descent"
+        },
+        "name": "50: Descent",
+        "id": "Descent"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Fast",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#d93737",
+            "label": "8: Airborne"
+        },
+        "name": "8: Airborne",
+        "id": "Airborne"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "114: Airspeed 5000 To 3000 Ft Max"
+        },
+        "name": "114: Airspeed 5000 To 3000 Ft Max",
+        "id": "Airspeed 5000 To 3000 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Vertical Speed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "116: Rate Of Descent 3000 To 2000 Ft Max"
+        },
+        "name": "116: Rate Of Descent 3000 To 2000 Ft Max",
+        "id": "Rate Of Descent 3000 To 2000 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Cruise",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "118: Airspeed During Cruise Max"
+        },
+        "name": "118: Airspeed During Cruise Max",
+        "id": "Airspeed During Cruise Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            },
+            {
+                "nodeTo": "Pitch",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "120: Pitch 35 To 400 Ft Max"
+        },
+        "name": "120: Pitch 35 To 400 Ft Max",
+        "id": "Pitch 35 To 400 Ft Max"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Airspeed",
+                "data": {}
+            },
+            {
+                "nodeTo": "Altitude AAL For Flight Phases",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#bed630",
+            "label": "121: Airspeed 500 To 20 Ft Min"
+        },
+        "name": "121: Airspeed 500 To 20 Ft Min",
+        "id": "Airspeed 500 To 20 Ft Min"
+    },
+    {
+        "adjacencies": [
+            {
+                "nodeTo": "Roll",
+                "data": {}
+            }
+        ],
+        "data": {
+            "color": "#72cdf4",
+            "label": "119: Roll Rate"
+        },
+        "name": "119: Roll Rate",
+        "id": "Roll Rate"
+    },
+    {
+        "adjacencies": [],
+        "data": {
+            "label": "40: HDF Duration"
+        },
+        "name": "40: HDF Duration",
+        "id": "HDF Duration"
+    },
+    {
+        "adjacencies": [],
+        "data": {
+            "color": "#72f4eb",
+            "label": "16: Pitch"
+        },
+        "name": "16: Pitch",
+        "id": "Pitch"
+    }
+]
