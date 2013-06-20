@@ -18,8 +18,7 @@ Source code is available from `GitHub`_:
 Usage
 -----
 
-Download source code and run server.py from source.
-::
+Download source code and run server.py from source::
 
     python FlightDataDeveloper/flightdataparameterdesigner/server.py
 

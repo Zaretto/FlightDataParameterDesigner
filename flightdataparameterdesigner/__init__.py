@@ -10,11 +10,11 @@ __author__ = 'Flight Data Services Ltd'
 __author_email__ = 'developers@flightdataservices.com'
 __maintainer__ = 'Flight Data Services Ltd'
 __maintainer_email__ = 'developers@flightdataservices.com'
-__url__= 'http://www.flightdataservices.com/'
-__description__ ='FlightDataParameterDesigner is a web application which runs \
-on your computer to provide an interactive development environment for \
+__url__ = 'http://www.flightdataservices.com/'
+__description__ = 'FlightDataParameterDesigner is a web application which \
+runs on your computer to provide an interactive development environment for \
 developing flight data algorithms.'
-__download_url__= 'http://www.flightdatacommunity.com/'
+__download_url__ = 'http://www.flightdatacommunity.com/'
 __classifiers__ = [
     'Development Status :: 5 - Production/Stable',
     'Environment :: Console',
@@ -29,5 +29,5 @@ __platforms__= ['OS Independent']
 __license__ = 'Open Software License (OSL-3.0)'
 __keywords__= ['flight', 'data', 'analyser', 'parameter', 'designer']
 
-################################################################################
+##############################################################################
 # vim:et:ft=python:nowrap:sts=4:sw=4:ts=4
