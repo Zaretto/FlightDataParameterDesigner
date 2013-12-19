@@ -13,15 +13,14 @@ Source Code
 
 Source code is available from `GitHub`_:
 
-* https://github.com/organizations/FlightDataServices/FlightDataParameterDesigner
+* https://github.com/FlightDataServices/FlightDataParameterDesigner
 
 Usage
 -----
 
-Download source code and run server.py from source.
-::
+Download source code and run server.py from source::
 
-    python FlightDataDeveloper/flightdataparameterdesigner/server.py
+    python FlightDataParameterDesigner/flightdataparameterdesigner/server.py
 
 Documentation
 -------------
