@@ -4,17 +4,10 @@
 # http://www.flightdataservices.com
 # See the file "LICENSE" for the full license governing this code.
 
-try:
-    from setuptools import setup, find_packages
-except ImportError:
-    from distribute_setup import use_setuptools
-    use_setuptools()
-    from setuptools import setup, find_packages
-
 import flightdataparameterdesigner as pkg
+from setuptools import setup, find_packages
 from requirements import RequirementsParser
 requirements = RequirementsParser()
-#requirements.early_install()
 
 setup(
     name=pkg.__packagename__,
